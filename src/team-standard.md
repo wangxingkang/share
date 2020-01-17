@@ -16,9 +16,9 @@ plugins:
 
 :::card
 
-## 遵循原则 
+## 遵循的一些开发原则 
 
-基于团队考虑，总结以下需要遵循的一些原则
+<br />
 
 * 约定大于配置 {.animated.fadeInUp}
 * 拥抱开源社区，使用成熟的技术方案 {.animated.fadeInUp.delay-400}
@@ -29,6 +29,14 @@ plugins:
 ![](https://source.unsplash.com/rCOWMC8qf8A/)
 
 :::
+
+:::footer
+
+[:fa-github: Github](https://github.com/wangxingkang){.alignright}
+
+<slide :class="size-50 aligncenter">
+
+## 团队使用的一些库
 
 :::footer
 
@@ -211,6 +219,37 @@ $ walrus stylelint
 
 [:fa-github: Github](https://github.com/wangxingkang){.alignright}
 
+<slide :class="size-90">
+
+:::card
+
+内置插件 
+
+* [@walrus/plugin-jest](https://github.com/walrusjs/walrus/blob/master/packages/walrus-plugin-jest/README.md) {.animated.fadeIn}
+* [@walrus/plugin-eslint](https://github.com/walrusjs/walrus/blob/master/packages/walrus-plugin-eslint/README.md) {.animated.fadeIn.delay-400}
+* [@walrus/plugin-prettier](https://github.com/walrusjs/walrus/blob/master/packages/walrus-plugin-prettier/README.md) {.animated.fadeIn.delay-800}
+* [@walrus/plugin-stylelint](https://github.com/walrusjs/walrus/blob/master/packages/walrus-plugin-stylelint/README.md) {.animated.fadeIn.delay-1200}
+* [@walrus/plugin-commitlint](https://github.com/walrusjs/walrus/blob/master/packages/walrus-plugin-commitlint/README.md) {.animated.fadeIn.delay-1600}
+
+<br />
+<br />
+
+其他插件
+
+* [@walrus/plugin-replace](https://github.com/walrusjs/walrus-plugin-replace) 替换文本插件 {.animated.fadeIn.delay-2s}
+* [@walrus/plugin-release](https://github.com/walrusjs/walrus-plugin-release) 项目发布插件 {.animated.fadeIn.delay-2400}
+* ... {.animated.fadeIn.delay-2800}
+
+---
+
+![](https://source.unsplash.com/fIq0tET6llw)
+
+:::
+
+:::footer
+
+[:fa-github: Github](https://github.com/wangxingkang){.alignright}
+
 <slide class="fullscreen">
 
 :::card
@@ -252,6 +291,14 @@ $ walrus stylelint
 现在walrus还未增加对IDE的支持
 
 :::
+
+:::footer
+
+[:fa-github: Github](https://github.com/wangxingkang){.alignright}
+
+<slide :class="size-90 aligncenter">
+
+## Walrus不仅是一个工具，更是一个社区
 
 :::footer
 
