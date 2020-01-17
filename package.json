@@ -1,0 +1,17 @@
+{
+  "name": "share",
+  "version": "1.0.0",
+  "description": "my share",
+  "main": "index.js",
+  "repository": "git@github.com:wangxingkang/share.git",
+  "author": "wangxingkang <wang_xingkang@qq.com>",
+  "license": "MIT",
+  "private": true,
+  "scripts": {
+    "start": "npx nodeppt serve src/team-standard.md",
+    "build": "npx nodeppt build src/team-standard.md"
+  },
+  "devDependencies": {
+    "nodeppt": "^2.2.0"
+  }
+}
