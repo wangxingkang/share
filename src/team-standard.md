@@ -146,11 +146,20 @@ Walrus解决方案
 
 [:fa-github: Github](https://github.com/wangxingkang){.alignright}
 
-<slide>
+<slide :class="size-80">
 
-## 优势
+:::header
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+## 优势{.aligntop}
+:::
 
 :::column
+
 ### **插件化**
 
 walrus是一个插件注册中心，所有的功能都是通过插件实现。
