@@ -9,7 +9,9 @@
   "private": true,
   "scripts": {
     "start": "npx nodeppt serve src/team-standard.md",
-    "build": "npx nodeppt build src/team-standard.md"
+    "build": "npm run build:team-standard && npm run build:dumi",
+    "build:team-standard": "npx nodeppt build src/team-standard.md",
+    "build:dumi": "npx nodeppt build src/dumi.md"
   },
   "devDependencies": {
     "nodeppt": "^2.2.0"
